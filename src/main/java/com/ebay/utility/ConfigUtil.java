@@ -8,7 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.ebay.base.Constant;
-
+//read from given properties file
 public class ConfigUtil {
 	
 	public static final Properties prop=new Properties();
