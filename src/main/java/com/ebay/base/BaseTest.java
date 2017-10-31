@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import com.ebay.utility.ConfigUtil;
 import com.ebay.utility.ScreenShotUtil;
 import com.ebay.utility.WebdriverUtil;
-
+//this is base class fo rall the page classes 
 public class BaseTest {
 	protected WebDriver driver;
 	protected static String url;
