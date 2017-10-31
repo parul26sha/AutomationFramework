@@ -28,7 +28,7 @@ public class BaseTest {
 	public void setDriver() {
 		driver=WebdriverUtil.getDriver(browser);
 		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 	}
 	@AfterMethod
